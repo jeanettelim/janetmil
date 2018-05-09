@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Janet Lin</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+    $(document).ready(function() {
+        $('.carousel').carousel({
+            interval: false
+        })
+    });
+    </script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="buger-menu" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+    </div>
+    <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+                <li><a href="file:///D:/portfolio/janetlin/index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <p class="project-section">
+                    <span class="page-num">01</span>
+                    <span>/07</span>
+                    <span class="work-ttl">Branding</span>
+                </p>
+                <img src="img/z-logo.png" alt="z-logo" width="550">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                 <p class="project-section">
+                    <span class="page-num">02</span>
+                    <span>/07</span>
+                    <span class="work-ttl">Business Card</span>
+                </p>
+                <img src="img/z-card.png" alt="z-card" width="650">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <p class="project-section">
+                    <span class="page-num">03</span>
+                    <span>/07</span>
+                    <span class="work-ttl">Shirt Design</span>
+                </p>
+                <img src="img/z-shirt.png" alt="z-shirt" width="650">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <p class="project-section">
+                    <span class="page-num">04</span>
+                    <span>/07</span>
+                    <span class="work-ttl">UI Design</span>
+                </p>
+                <img src="img/z-ui-01.png" alt="z-dashboard" width="650">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <p class="project-section">
+                    <span class="page-num">05</span>
+                    <span>/07</span>
+                    <span class="work-ttl">UI Design</span>
+                </p>
+                <img src="img/z-ui-02.png" alt="z-dashboard" width="650">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <p class="project-section">
+                    <span class="page-num">06</span>
+                    <span>/07</span>
+                    <span class="work-ttl">UI Design</span>
+                </p>
+                <img src="img/z-ui-03.png" alt="z-dashboard" width="650">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <p class="project-section">
+                    <span class="page-num">07</span>
+                    <span>/07</span>
+                    <span class="work-ttl">UI Design</span>
+                </p>
+                <img src="img/z-ui-04.png" alt="z-dashboard" width="650">
+                <div class="carousel-caption"></div>
+            </div>
+        </div>
+        <!--nav-header(logo)-->
+        <div id="logo"></div>
+        <!-- Left and right controls -->
+        <div class="work_slide">
+            <a href="file:///D:/portfolio/janetlin/index.html">
+                <div class="logo"></div>
+            </a>
+            <div class="nav-menu">
+                <div>
+                    <a class="left carousel-control " href="#myCarousel" data-slide="prev">
+                            <span class="nex-pre-link">Prev</span>
+                        </a>
+                    <a class="right carousel-control " href="#myCarousel" data-slide="next">
+                            <span class="nex-pre-link">Next</span>
+                        </a>
+                </div>
+                <div class="carousel-caption">
+                    <h2>Zentera</h2>
+                    <h4>Brand Identity</h4>
+                    <ul>
+                        <li>Logo /</li>
+                        <li>Business Card /</li>
+                        <li>Stationery Design /</li>
+                        <li>UI Design</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Sidebar menu
+    $('#toggle').click(function() {
+        $(this).toggleClass('active');
+        $('#overlay').toggleClass('open');
+    });
+    </script>
+</body>
+
+</html>
